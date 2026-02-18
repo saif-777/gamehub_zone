@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GameZone - Free Online HTML Games</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8162414437272633" crossorigin="anonymous"></script>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -71,27 +72,16 @@
 
   /* AD BANNER */
   .ad-banner {
-    background: linear-gradient(135deg, rgba(123,47,255,0.15), rgba(0,245,212,0.1));
-    border: 1px solid rgba(0,245,212,0.2);
-    border-radius: 12px;
     margin: 1.5rem auto;
     max-width: 728px;
-    height: 90px;
-    display: flex; align-items:center; justify-content:center;
-    color: var(--muted); font-size:.85rem; letter-spacing:2px; text-transform:uppercase;
+    text-align: center;
     position: relative; z-index:1;
   }
-  .ad-banner::before { content:'📢 Advertisement Space — 728×90 Leaderboard (Google AdSense)'; }
   .ad-side {
     width: 160px; min-height: 600px;
-    background: linear-gradient(180deg, rgba(123,47,255,0.12), rgba(255,45,120,0.08));
-    border: 1px solid rgba(255,45,120,0.2);
-    border-radius: 12px;
-    display:flex; align-items:center; justify-content:center;
-    color: var(--muted); font-size:.75rem; letter-spacing:1px; text-transform:uppercase;
-    writing-mode: vertical-rl; flex-shrink:0;
+    flex-shrink:0;
+    text-align: center;
   }
-  .ad-side::before { content:'Ad Space 160×600'; }
 
   /* LAYOUT */
   .main-layout {
@@ -233,10 +223,8 @@
 
   /* AD inside modal */
   .modal-ad {
-    background: rgba(123,47,255,0.1);
     border-top: 1px solid rgba(0,245,212,0.1);
     padding: .6rem; text-align:center;
-    color: var(--muted); font-size:.75rem; letter-spacing:2px;
   }
 
   /* LEADERBOARD / SIDEBAR */
@@ -295,7 +283,15 @@
 
 <!-- TOP AD BANNER -->
 <div style="text-align:center; padding:0 1rem; position:relative; z-index:1;">
-  <div class="ad-banner"></div>
+  <div class="ad-banner">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8162414437272633"
+         data-ad-slot="auto"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
 </div>
 
 <!-- MAIN LAYOUT -->
@@ -413,7 +409,15 @@
 
     <!-- MID AD BANNER -->
     <div style="text-align:center; margin: 1rem 0 2rem;">
-      <div class="ad-banner" style="max-width:100%;"></div>
+      <div class="ad-banner" style="max-width:100%;">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8162414437272633"
+             data-ad-slot="auto"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
     </div>
 
   </div><!-- /content -->
@@ -428,7 +432,13 @@
       <div class="leaderboard-item"><span class="rank">4</span><span class="player-name">StarPlayer</span><span class="player-score">55,300</span></div>
       <div class="leaderboard-item"><span class="rank">5</span><span class="player-name">ZapMaster</span><span class="player-score">48,200</span></div>
     </div>
-    <div class="ad-side"></div>
+    <div class="ad-side">
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:160px;height:600px"
+           data-ad-client="ca-pub-8162414437272633"
+           data-ad-slot="auto"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
   </div>
 
 </div><!-- /main-layout -->
@@ -446,7 +456,15 @@
       <button class="close-btn" onclick="closeGame()">✕</button>
     </div>
     <div class="game-area" id="gameArea"></div>
-    <div class="modal-ad">📢 Advertisement — Place Google AdSense 728×90 here</div>
+    <div class="modal-ad">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8162414437272633"
+           data-ad-slot="auto"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
   </div>
 </div>
 
